@@ -59,7 +59,7 @@ def createGUI():
     large_pen_text = myfont.render("Large Pen", True, (255, 255, 255))
     clear_text = myfont.render("Clear", True, (255, 255, 255))
     canvas_text = myfont.render("Canvas", True, (255, 255, 255))
-    SCREEN.blit(small_pen_text, (109 * 9 + 13, 752.5))
+    SCREEN.blit(small_pen_text, (109 *  9 + 13, 752.5))
     SCREEN.blit(large_pen_text, (109 * 10 + 13, 752.5))
     SCREEN.blit(clear_text, (109 * 11 + 24, 747.5))
     SCREEN.blit(canvas_text, (109 * 11 + 24, 760.5))
